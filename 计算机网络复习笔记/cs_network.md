@@ -11,17 +11,17 @@
 
 ### 奈奎斯特定理
 
-![image-20230615111409531](cs_network.assets/image-20230615111409531.png)
+<img src="cs_network.assets/image-20230615111409531.png" alt="image-20230615111409531" style="zoom:50%;" />
 
 ### 香农定理
 
-![image-20230615111427996](cs_network.assets/image-20230615111427996.png)
+<img src="cs_network.assets/image-20230615111427996.png" alt="image-20230615111427996" style="zoom:50%;" />
 
 
 
 **波特率和比特率**
 
-![image-20230615111958992](cs_network.assets/image-20230615111958992.png)
+<img src="cs_network.assets/image-20230615111958992.png" alt="image-20230615111958992" style="zoom:50%;" />
 
 
 
@@ -49,7 +49,7 @@
 
     - Line codes （线路编码）发送 symbols（样本、符号），一个样本可传送1个或多个比特
 
-      ![image-20230615112114159](cs_network.assets/image-20230615112114159.png)
+      <img src="cs_network.assets/image-20230615112114159.png" alt="image-20230615112114159" style="zoom:50%;" />
 
     - 时钟恢复
 
@@ -61,17 +61,17 @@
 
     - 特点：信号占据了以载波信号频率为中心的一段频带
 
-      ![image-20230615112323191](cs_network.assets/image-20230615112323191.png)
+      <img src="cs_network.assets/image-20230615112323191.png" alt="image-20230615112323191" style="zoom:50%;" />
 
     - 信号星座
 
-      ![image-20230615112545431](cs_network.assets/image-20230615112545431.png)
+      <img src="cs_network.assets/image-20230615112545431.png" alt="image-20230615112545431" style="zoom:50%;" />
 
       格雷码
 
       > 相邻符号间只差一个比特，从一个状态变到下一个状态不会引起逻辑混乱。
 
-       ![image-20230615112653429](cs_network.assets/image-20230615112653429.png)
+       <img src="cs_network.assets/image-20230615112653429.png" alt="image-20230615112653429" style="zoom:50%;" />
 
       
 
@@ -79,19 +79,19 @@
 
   - 频分多路复用FDM
 
-    ![image-20230615112749156](cs_network.assets/image-20230615112749156.png)
+    <img src="cs_network.assets/image-20230615112749156.png" alt="image-20230615112749156" style="zoom:50%;" />
 
   - 波分多路复用WDM 
 
     - WDM (Wavelength Division Multiplexing), 本质跟 FDM一样,在光纤上复用信号
 
-    ![image-20230615112824429](cs_network.assets/image-20230615112824429.png)
+    <img src="cs_network.assets/image-20230615112824429.png" alt="image-20230615112824429" style="zoom:50%;" />
 
   - 时分多路复用TDM
 
     - 在时间上共享信道，用户轮流使用信道
 
-    ![image-20230615112904624](cs_network.assets/image-20230615112904624.png)
+    <img src="cs_network.assets/image-20230615112904624.png" alt="image-20230615112904624" style="zoom:50%;" />
 
   - 统计时分多路复用技术
     - Statistic TDM（STDM）
@@ -105,7 +105,7 @@
     - 每个用户拥有一个唯一码片序列
       - 码片是正交的，能够同时传输
 
-    ![image-20230615113131533](cs_network.assets/image-20230615113131533.png)
+    <img src="cs_network.assets/image-20230615113131533.png" alt="image-20230615113131533" style="zoom:50%;" />
 
     
 
@@ -154,7 +154,7 @@
 
   - **字符计数法**
 
-    ![image-20230614161503142](cs_network.assets/image-20230614161503142.png){:height="50%" width="50%"}
+    <img src="cs_network.assets/image-20230614161503142.png" alt="image-20230614161503142" style="zoom: 67%;" />
 
     - 特点
       - 简单
@@ -181,7 +181,7 @@
     - 当帧内容中出现⼀个与帧标志相同的位串01111110，则在5个1后插⼊⼀个0，即变成01111101，接收⽅将⾃动删除第5 个1后的0。这称为**位填充法**，也称为透明传输。
     - 如果由于⼲扰，⼀个帧没有正确接收，则可扫描接收串，⼀旦扫描到01111110，即新的⼀帧从此开始。即可以再同步
 
-    ![image-20230614162102276](cs_network.assets/image-20230614162102276.png)
+    <img src="cs_network.assets/image-20230614162102276.png" alt="image-20230614162102276" style="zoom:67%;" />
 
   - 物理层编码违例法
 
@@ -227,9 +227,9 @@
 
   - 因为此时，如果⼀个码字有d位发⽣差错，它仍然距离原来的码字距离最近，可以直接恢复为该码。
 
-  ![image-20230614162917381](cs_network.assets/image-20230614162917381.png)
+  <img src="cs_network.assets/image-20230614162917381.png" alt="image-20230614162917381" style="zoom:50%;" />
 
-​		![image-20230614164358439](cs_network.assets/image-20230614164358439.png)	
+​		<img src="cs_network.assets/image-20230614164358439.png" alt="image-20230614164358439" style="zoom:50%;" />	
 
 - 随着海明距离的增加，纠错的能⼒也增加；即海明距离越⼤，纠错能⼒越强。
 - 海明距离为3，可以纠正1个错误；⽽海明距离为5，可以纠正2个错误。
@@ -239,7 +239,7 @@
 
 **纠正单位比特错误的冗余位下界**
 
-![image-20230614165012559](cs_network.assets/image-20230614165012559.png)
+<img src="cs_network.assets/image-20230614165012559.png" alt="image-20230614165012559" style="zoom:67%;" />
 
 **海明码纠错码**
 
@@ -265,7 +265,7 @@
 
   - 校验位8的检验集合：8、9、10、11、……
 
-    ![image-20230614170246111](cs_network.assets/image-20230614170246111.png)
+    <img src="cs_network.assets/image-20230614170246111.png" alt="image-20230614170246111" style="zoom:67%;" />
 
 - 待发送的数据：0 0 1 1 0 0 1 0 0 **0**
 
@@ -309,7 +309,7 @@
 
   - N位下的突发都可检出。
 
-    ![image-20230614171451985](cs_network.assets/image-20230614171451985.png)
+    <img src="cs_network.assets/image-20230614171451985.png" alt="image-20230614171451985" style="zoom:67%;" />
 
 
 
@@ -327,13 +327,13 @@
 
 **发送端生成CRC**
 
-![image-20230614171605870](cs_network.assets/image-20230614171605870.png)
+<img src="cs_network.assets/image-20230614171605870.png" alt="image-20230614171605870" style="zoom:67%;" />
 
 例如
 
-![image-20230614171857832](cs_network.assets/image-20230614171857832.png)
+<img src="cs_network.assets/image-20230614171857832.png" alt="image-20230614171857832" style="zoom:67%;" />
 
-![image-20230614172012700](cs_network.assets/image-20230614172012700.png)
+<img src="cs_network.assets/image-20230614172012700.png" alt="image-20230614172012700" style="zoom:67%;" />
 
 计算11010110110000/10011 得余数1110，即CRC码为11010110111110
 
@@ -342,7 +342,7 @@
 
 **接收端检查**
 
-![image-20230614172224255](cs_network.assets/image-20230614172224255.png)
+<img src="cs_network.assets/image-20230614172224255.png" alt="image-20230614172224255" style="zoom:67%;" />
 
 - Sender
   - 在数据帧的低端加上r个零，对应多项式为X^rM(x)
@@ -379,7 +379,7 @@
 - 解决方法：收方回发一个**哑帧**，接收方收到哑帧，表明收方允许接收数据，此时再次发送下一帧数据。
 - 实际上是半双工协议
 
-![image-20230614174020359](cs_network.assets/image-20230614174020359.png)
+<img src="cs_network.assets/image-20230614174020359.png" alt="image-20230614174020359" style="zoom:50%;" />
 
 
 
@@ -444,7 +444,7 @@
 - **发送方和接收方接收能力**的匹配即流量控制。 
 - 如接收方的处理能力低于发送方，接收方的缓冲区可能被“占满”，所以通常在接方收的缓冲区到达一定量时，应及时通知发送方，暂停发送，等候通知，这就是流量控制机制。
 
-![image-20230614180418179](cs_network.assets/image-20230614180418179.png)
+<img src="cs_network.assets/image-20230614180418179.png" alt="image-20230614180418179" style="zoom:50%;" />
 
 **原理**
 
@@ -463,19 +463,19 @@
   - 滑动窗口长度W=1，收到确认才移动窗口
   - 保证按顺序将接收到的正确帧只一次上交网络层
 
-![image-20230615100149530](cs_network.assets/image-20230615100149530.png)
+<img src="cs_network.assets/image-20230615100149530.png" alt="image-20230615100149530" style="zoom:67%;" />
 
 正常情况下发送滑动窗口机制
 
-![image-20230615100706115](cs_network.assets/image-20230615100706115.png)
+<img src="cs_network.assets/image-20230615100706115.png" alt="image-20230615100706115" style="zoom:67%;" />
 
 异常情况一：对重复帧的差错控制（定时器设置断了）
 
-![image-20230615100628446](cs_network.assets/image-20230615100628446.png)
+<img src="cs_network.assets/image-20230615100628446.png" alt="image-20230615100628446" style="zoom:67%;" />
 
 异常情况二：同步开始发送过程的差错控制（同时开始传输）
 
-![image-20230615100551616](cs_network.assets/image-20230615100551616.png)
+<img src="cs_network.assets/image-20230615100551616.png" alt="image-20230615100551616" style="zoom:67%;" />
 
 - **协议4的信道利用率**
 
@@ -488,11 +488,11 @@
     - 信道传输速率是： b bps
     - 每帧的大小是： k bits
     - 来回时间是： R sec
-    - 则信道的利用率是：![image-20230615100951025](cs_network.assets/image-20230615100951025.png)
+    - 则信道的利用率是：<img src="cs_network.assets/image-20230615100951025.png" alt="image-20230615100951025" style="zoom:50%;" />
 
 - **提高信道利用率的方法**
 
-![image-20230615101156855](cs_network.assets/image-20230615101156855.png)
+<img src="cs_network.assets/image-20230615101156855.png" alt="image-20230615101156855" style="zoom:50%;" />
 
 - **计算最合适的w值**
 
@@ -519,7 +519,7 @@
   - 接收窗口为1，对出错帧不确认（引发超时）
   - 发送方超时重传，从未被确认帧开始
 
-![image-20230615101747093](cs_network.assets/image-20230615101747093.png)
+<img src="cs_network.assets/image-20230615101747093.png" alt="image-20230615101747093" style="zoom:50%;" />
 
 - 工作原理分析
   - 发送方
@@ -550,7 +550,7 @@
   - 发送方只重传差错帧
   - 接收方接收重传帧，按正确顺序将分组提交网络层
 
-![image-20230615102717447](cs_network.assets/image-20230615102717447.png)
+<img src="cs_network.assets/image-20230615102717447.png" alt="image-20230615102717447" style="zoom:50%;" />
 
 - 工作原理分析
   - 发送方
@@ -600,11 +600,11 @@
 
       - W = 8，异常情况
 
-        ![image-20230615103800130](cs_network.assets/image-20230615103800130.png)
+        <img src="cs_network.assets/image-20230615103800130.png" alt="image-20230615103800130" style="zoom:50%;" />
 
         W = 7
 
-        ![image-20230615103907877](cs_network.assets/image-20230615103907877.png)
+        <img src="cs_network.assets/image-20230615103907877.png" alt="image-20230615103907877" style="zoom:50%;" />
 
     - 协议6（选择重传）
 
@@ -620,7 +620,7 @@
 
       - 保证新老窗口不重叠
 
-        ![image-20230615104215109](cs_network.assets/image-20230615104215109.png)
+        <img src="cs_network.assets/image-20230615104215109.png" alt="image-20230615104215109" style="zoom:50%;" />
 
 
 
@@ -640,7 +640,7 @@
 
 ## 链路层协议实例
 
-![image-20230615104828907](cs_network.assets/image-20230615104828907.png)
+<img src="cs_network.assets/image-20230615104828907.png" alt="image-20230615104828907" style="zoom:50%;" />
 
 **面向位的数据链路协议**
 
@@ -677,7 +677,7 @@
 
     - 一种成帧的方法 
 
-      ![image-20230615110119158](cs_network.assets/image-20230615110119158.png)
+      <img src="cs_network.assets/image-20230615110119158.png" alt="image-20230615110119158" style="zoom:50%;" />
 
     - 一个链路控制协议
 
@@ -688,7 +688,7 @@
 
       -  NCP (Network Control Protocol)
 
-      ![image-20230615105557820](cs_network.assets/image-20230615105557820.png)
+      <img src="cs_network.assets/image-20230615105557820.png" alt="image-20230615105557820" style="zoom:50%;" />
 
   -  PPP两种认证协议：PAP and CHAP
 
@@ -742,11 +742,11 @@
 
   - 静态信道分配的排队模型
 
-    ![image-20230613174355165](cs_network.assets/image-20230613174355165.png)
+    <img src="cs_network.assets/image-20230613174355165.png" alt="image-20230613174355165" style="zoom:50%;" />
 
   - 信道平均延迟时间
 
-    ![image-20230613174435393](cs_network.assets/image-20230613174435393.png)
+    <img src="cs_network.assets/image-20230613174435393.png" alt="image-20230613174435393" style="zoom:50%;" />
 
   - 信道N等分
     - 问题
