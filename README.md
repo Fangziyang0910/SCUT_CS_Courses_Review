@@ -8,7 +8,7 @@
 - 算法设计与分析
 - 计算机网络
 
-## 操作系统--Written and maintained by房生
+## 操作系统--Written and maintained by 房生
 
 操作系统复习笔记的整理主要依据《王道考研操作系统指导》进行归纳整理具体包含了以下五个章节的内容
 
@@ -18,7 +18,7 @@
 4. **磁盘管理         ✅6.10**
 5. **I/O设备管理      ✅6.11**
 
-## **数据库--Written and ma**intained by房生
+## **数据库--Written and ma**intained by 房生
 
 数据库复习笔记的整理主要依据上课的PPT进行归纳整理，具体包含以下的内容：
 
@@ -42,3 +42,11 @@
 3. **网络层           ✅6.15**
 4. **传输层           ✅6.15**
 5. **应用层           ✅6.15**
+
+## 算法设计与分析--Written and maintained by Super Dan
+
+算法设计与分析复习笔记的整理主要是上课的PPT，大量手写笔记，良心满满。具体内容包括：
+
+1. Algorithm Analysis
+2. Recurrence
+3. 
