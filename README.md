@@ -47,6 +47,7 @@
 
 算法设计与分析复习笔记的整理主要是上课的PPT，大量手写笔记，良心满满。具体内容包括：
 
-1. Algorithm Analysis
-2. Recurrence
-3. 
+1. **Algorithm Analysis  6.16**
+2. **Recurrence 6.16**
+3. **divide-and-conquer分治 6.16**
+4. **单纯形法 6.16**
